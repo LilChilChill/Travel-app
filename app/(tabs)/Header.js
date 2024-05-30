@@ -2,7 +2,7 @@
 import { Text, View, Image, StyleSheet, Platform, ScrollView } from 'react-native';
 const icon = require('./img/icon.png');
 
-export default function HomeScreen(){
+export default function Header(){
   return(
     <ScrollView style={styles.container}>
       <View style={styles.header}>
@@ -32,8 +32,12 @@ const styles = StyleSheet.create({
     paddingTop: 25,
   },
   headerText:{
-    color: '#fff', 
-    paddingLeft: 10,
+    color: 'white',
+    fontSize: 14.46,
+    fontFamily: 'Inter',
+    fontWeight: '500',
+    wordWrap: 'break-word',
+    paddingLeft: 10
   },
   bodyContainer:{
 
